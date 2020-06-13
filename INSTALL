@@ -1,0 +1,9 @@
+Building Cacoin
+
+See doc/readme-qt.rst for instructions on building Cacoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cacoin.
+
+See doc/build-*.txt for instructions on building cacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cacoin.
