@@ -17,8 +17,6 @@ RUN apt-get install -y libminiupnpc-dev
 RUN apt-get install -y libzmq3-dev
 
 #build cacoin source
-RUN ./autogen.sh
-RUN ./configure
 RUN make
 RUN make install
 #open service port
