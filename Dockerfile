@@ -21,5 +21,5 @@ WORKDIR /cacoin/src
 RUN make -f makefile.unix
 #RUN make install
 #open service port
-#EXPOSE 9332 19332
-#CMD ["cacoind", "--printtoconsole"]
+EXPOSE 9332 19332
+CMD ["cacoind", "--printtoconsole"]
