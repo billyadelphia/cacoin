@@ -16,6 +16,8 @@ RUN apt-get install -y libminiupnpc-dev
 #ZMQ
 RUN apt-get install -y libzmq3-dev
 
+RUN chmod u=rw /cacoin.conf
+
 #build cacoin source
 WORKDIR /cacoin/src
 RUN make -f makefile.unix
