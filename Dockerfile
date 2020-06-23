@@ -17,7 +17,7 @@ RUN apt-get install -y libminiupnpc-dev
 RUN apt-get install -y libzmq3-dev
 
 #build cacoin source
-RUN cd src/
+WORKDIR /cacoin/src
 RUN make -f makefile.unix
 #RUN make install
 #open service port
