@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+COPY ./cacoin.conf /root/.cacoin/cacoin.conf
 COPY . /cacoin
 WORKDIR /cacoin
 #shared libraries and dependencies
